@@ -22,7 +22,7 @@ class LearingPage extends React.Component{
                         </h2>
                     </header>
                 </div>
-                <div className="flex w-100 justify-between h4">
+                <div className="flex w-100 justify-between debug h4">
                     <RoadMapButton text={'Roadmap to become an ETH Dev'} img={ether_img}/>
                     <RoadMapButton text={'Roadmap to become a SOL Dev'} img={solana_img}/>
                     <RoadMapButton text={'Blockchain basics'} img={blockchain_img}/>

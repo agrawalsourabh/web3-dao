@@ -8,7 +8,7 @@ class RoadMapButton extends React.Component{
         return(
             <a className=" no-underline br3 ph3 pv2 ma2 black w-25 bg-color-gradient inline-flex justify-between items-center" href="#">
                 <span className="f6">{text}</span>
-                <img className="h2 w-50" alt="img" src={img}/>    
+                <img className="w-50" alt="img" src={img}/>    
             </a>
         );
     }

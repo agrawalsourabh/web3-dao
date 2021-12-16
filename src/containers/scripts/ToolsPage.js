@@ -12,7 +12,7 @@ class ToolsPage extends React.Component{
     render(){
         return(
             <div className="flex flex-column justify-between w-100 center bg-black">
-                <div className="ma5 h5">
+                <div className="mt5 h-50">
                     <header className="tc ">
                         <h1 className="f3 f2-m f1-l fw2 white mv3">
                             <strong>Build <mark className="f-color-gradient"> alongside  </mark>
@@ -24,7 +24,7 @@ class ToolsPage extends React.Component{
                         
                     </header>
                 </div>
-                <div className="h5 center flex flex-column w-75 ma2">
+                <div className="h5 center flex flex-column w-50 ma5">
                     <div className="flex w-100 h-50 pa3">
                         <div className="w-50">
                             <img src={ethereum_text_img} />
