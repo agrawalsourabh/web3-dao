@@ -4,9 +4,9 @@ import '../styles/Button.css';
 
 class Button extends React.Component{
     render(){
-        const {text} = this.props;
+        const {text, link} = this.props;
         return(
-            <a className="f6 grow no-underline br-pill ph3 pv2 mb2 button-bg" href="#">{text}</a>
+            <a className="f6 link grow no-underline br-pill ph3 pv2 mb2 button-bg" href={link} target="_blank">{text}</a>
         );
     }
 }

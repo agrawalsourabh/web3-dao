@@ -4,6 +4,8 @@ import Button from "../../components/scripts/Button";
 import '../styles/HomePage.css';
 import background_img from '../../assets/images/background.svg';
 
+import url from '../../assets/Resources/URLs.json';
+
 class HomePage extends React.Component{
     render(){
         return(
@@ -20,7 +22,7 @@ class HomePage extends React.Component{
                         </p>
                     </div>
                     <div className="w-100">
-                        <Button text={'Join The Discord'}/>
+                        <Button text={'Join The Discord'} link={url.link.discord}/>
                     </div>
                     <div className="w-100"></div>
                     <div className="w-100"></div>

@@ -2,6 +2,8 @@ import React from "react";
 
 import Button from "../../components/scripts/Button";
 
+import urls from '../../assets/Resources/URLs.json';
+
 class JoiningPage extends React.Component{
     render(){
         return(
@@ -19,7 +21,7 @@ class JoiningPage extends React.Component{
                     </header>
                 </div>
                 <div className="h4 center ">
-                    <Button text={'Join The Discord️'} />
+                    <Button text={'Join The Discord️'} link={urls.link.discord}/>
                 </div>
                 
             </div>
