@@ -17,7 +17,7 @@ class LearingPage extends React.Component{
                         <h1 className="f3 f2-m f1-l fw2 black-90 mv3">
                             <strong>Learing by <mark className="f-color-gradient"> building </mark></strong>
                         </h1>
-                        <h2 className="f5 f4-m f3-l fw2 black-50 mt0 lh-copy">
+                        <h2 className="f5 f4-m f3-l fw2 black-90 mt0 lh-copy">
                             Follow proven paths to success. You are encouraged to complete as many goals as you can, take the skill tests, and leave feedback. Those of you who are able to graduate will receive the "Contributor" role. The first 1200 contributors will have their wallet addresses stored for future airdrops. ✈️ 
                         </h2>
                     </header>

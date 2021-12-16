@@ -14,7 +14,7 @@ class JoiningPage extends React.Component{
                             <strong>Join the team. <mark className="f-color-gradient"> 100% free. </mark>
                             Earn NFTs and governance token</strong>
                         </h1>
-                        <h2 className="f4-m f3-l fw2 black-50 mt0 lh-copy">
+                        <h2 className="f4-m f3-l fw2 black-90 mt0 lh-copy">
                         Mission: become a self-taught web3.0 developer with others.
                         </h2>
                         
