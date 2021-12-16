@@ -1,0 +1,12 @@
+.bg-color-div{
+    background: linear-gradient(100.18deg, #1BFFA6 25.65%, #8C52FF 79.84%);
+}
+
+.f-color-gradient{
+    background: linear-gradient(100.18deg, #1BFFA6 25.65%, #8C52FF 79.84%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.bg-red{
+    background-color: red;
+}
