@@ -2,7 +2,7 @@ import React from "react";
 
 import '../styles/ToolsPage.css';
 
-import ethereum_text_img from '../../assets/images/ethereum_text.svg';
+import ethereum_img from '../../assets/images/ethereum.svg';
 import javscript_img from '../../assets/images/javascript.svg';
 import react_img from '../../assets/images/react.svg';
 import solana_gradient from '../../assets/images/solana_gradient.svg';
@@ -18,26 +18,26 @@ class ToolsPage extends React.Component{
                             <strong>Build <mark className="f-color-gradient"> alongside  </mark>
                             others</strong>
                         </h1>
-                        <h2 className="f4-m f3-l fw2 white mt0 lh-copy">
+                        <h2 className="f-description white mt0 lh-copy">
                         Learn the tools required to be successful in Web3.0
                         </h2>
                         
                     </header>
                 </div>
-                <div className="h5 center flex flex-column w-50 ma5">
-                    <div className="flex w-100 h-50 pa3">
-                        <div className="w-50">
-                            <img src={ethereum_text_img} />
+                <div className="h6 center flex flex-column w-100 ma5">
+                    <div className="techDiv pa3">
+                        <div className="techItemDiv">
+                            <img src={ethereum_img} />
                         </div>
-                        <div className="w-50">
+                        <div className="techItemDiv">
                             <img src={javscript_img} />
                         </div>
                     </div>
-                    <div className="flex w-100 h-50 pa3 justify-center">
-                    <div className="w-50">
+                    <div className="techDiv pa3 justify-center">
+                    <div className="techItemDiv">
                             <img src={solana_gradient} />
                         </div>
-                        <div className="w-50">
+                        <div className="techItemDiv">
                             <img src={react_img} />
                         </div>
                     </div>

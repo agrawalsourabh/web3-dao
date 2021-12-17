@@ -6,10 +6,10 @@ class RoadMapButton extends React.Component{
     render(){
         const {text, img} = this.props;
         return(
-            <a className=" no-underline br3 ph3 pv2 ma2 black w-25 bg-color-gradient inline-flex justify-between items-center" href="#">
-                <span className="f6">{text}</span>
-                <img className="w-50" alt="img" src={img}/>    
-            </a>
+                <div className=" buttonDiv no-underline br3 ph3 pv2 ma2 black bg-color-gradient">
+                    <p className="textDiv">{text}</p>
+                    <img className="btn_img" alt="img" src={img}/>    
+                </div>
         );
     }
 }
