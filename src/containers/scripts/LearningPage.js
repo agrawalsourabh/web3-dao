@@ -15,7 +15,7 @@ class LearingPage extends React.Component{
                 <div className="ma5">
                     <header className="tc pa3">
                         <h1 className="f3 f2-m f1-l fw2 black-90 mv3">
-                            <strong>Learing by <mark className="f-color-gradient"> building </mark></strong>
+                            <strong>Leanring by <mark className="f-color-gradient"> building </mark></strong>
                         </h1>
                         <h2 className="f-description black-90 mt0 lh-copy">
                             Follow proven paths to success.
