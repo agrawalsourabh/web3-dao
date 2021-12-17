@@ -6,7 +6,7 @@ class Button extends React.Component{
     render(){
         const {text, link} = this.props;
         return(
-            <a className="f6 link no-underline br-pill ph3 pv2 mb2 button-bg" href={link} target="_blank">{text}</a>
+            <a className="f6 link no-underline br-pill ph4 pv3 mb2 button-bg" href={link} target="_blank">{text}</a>
         );
     }
 }

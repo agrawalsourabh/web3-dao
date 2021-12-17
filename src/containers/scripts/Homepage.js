@@ -9,8 +9,8 @@ import url from '../../assets/Resources/URLs.json';
 class HomePage extends React.Component{
     render(){
         return(
-            <div className="flex justify-center mt6-m mt6-ns bg-color-black w-100">
-                <div className="ma5 pl3  flex flex-column justify-between headingDiv">
+            <div className="homepageDiv">
+                <div className="ma5 flex flex-column justify-between headingDiv">
                     <div className="w-100 titleDiv ">
                             <h1 className="mv2 bold white f-heading">
                             Start your <mark className="f-color-gradient">web3</mark> developer journey.
@@ -30,8 +30,6 @@ class HomePage extends React.Component{
                     <div className="w-100 ma2 hpButtonDiv">
                         <Button text={'Join The Discord'} link={url.link.discord}/>
                     </div>
-                    <div className="w-100"></div>
-                    <div className="w-100"></div>
                     <div className="w-100"></div>
                     <div className="w-100"></div>
                 </div>

@@ -28,8 +28,8 @@ class LearingPage extends React.Component{
                     <RoadMapButton text={'Blockchain basics'} img={blockchain_img}/>
                 </div>
                 <div></div>
-                <div className="flex w-100 h4">
-                    <p className="center"> and more...</p>
+                <div className="w-100 h4 pa5">
+                    <p className="tc"> and more...</p>
                 </div>
                 
             </div>

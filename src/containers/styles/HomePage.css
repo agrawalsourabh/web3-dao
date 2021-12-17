@@ -1,8 +1,12 @@
 .bg-color-black{
     background-color: black;
 }
-.h-640{
-    height: 640px;
+
+.homepageDiv{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -31,6 +35,13 @@ img{
 
 .headingDiv{
     width: 50%;
+    padding-top: 6%;
+    padding-left: 3%;
+}
+
+.backgroundImgDiv{
+    padding-top: 6%;
+    padding-right: 3%;
 }
 
 /* Media Queries */
