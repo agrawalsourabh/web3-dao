@@ -4,6 +4,7 @@
 .buttonDiv{
     width: 30%;
     display: table;
+    /* transition: all .2s ease-in-out; */
 }
 
 .textDiv{

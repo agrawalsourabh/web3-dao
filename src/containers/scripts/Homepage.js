@@ -27,7 +27,7 @@ class HomePage extends React.Component{
                             addresses stored for future airdrops. ️
                         </p>
                     </div>
-                    <div className="w-100 ma2 hpButtonDiv">
+                    <div className="ma2 hpButtonDiv">
                         <Button text={'Join The Discord'} link={url.link.discord}/>
                     </div>
                     <div className="w-100"></div>

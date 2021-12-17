@@ -6,7 +6,7 @@ class RoadMapButton extends React.Component{
     render(){
         const {text, img} = this.props;
         return(
-                <div className=" buttonDiv no-underline br3 ph3 pv2 ma2 black bg-color-gradient">
+                <div className="growAnim buttonDiv no-underline br3 ph3 pv2 ma2 black bg-color-gradient">
                     <p className="textDiv">{text}</p>
                     <img className="btn_img" alt="img" src={img}/>    
                 </div>

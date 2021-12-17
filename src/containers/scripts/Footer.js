@@ -12,10 +12,10 @@ class Footer extends React.Component{
                 <p className="f4 tc">🚀  Web3DAO</p>
                 <p className="f5 tc">Start your web3 journey.</p>
                 <div className="flex center w-25 justify-around">
-                <a className="link hover-silver near-black dib h2 w2 mr3 center" href={urls.link.twitter} title="Twitter" target="_blank">
+                <a className="link grow hover-silver near-black dib h2 w2 mr3 center" href={urls.link.twitter} title="Twitter" target="_blank">
                     <img src={twitter_img} alt="twitter"/>
                 </a>
-                <a className="link hover-silver near-black dib h2 w2 mr3 center" href={urls.link.discord} title="Discord" target="_blank">
+                <a className="link grow hover-silver near-black dib h2 w2 mr3 center" href={urls.link.discord} title="Discord" target="_blank">
                     <img src={discord_img} alt="discord" />
                 </a>
                 </div>

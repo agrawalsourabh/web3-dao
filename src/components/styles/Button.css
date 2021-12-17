@@ -2,17 +2,6 @@
     background: linear-gradient(100.18deg, #1BFFA6 25.65%, #8C52FF 79.84%);
 }
 
-.scale {
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform .25s ease-out;
-}
+.growAnim { transition: all .2s ease-in-out; } 
+.growAnim:hover { transform: scale(1.1); }
 
-.scale:hover, .scale:focus {
-    transform: scale(1.05);
-}
-
-.scale:active {
-    transform: scale(.9);
-}
